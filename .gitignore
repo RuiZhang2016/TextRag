@@ -1,0 +1,29 @@
+# 环境变量（包含 API Key，绝对不要提交）
+.env
+.env.*
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# UV / pip 构建产物
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# macOS 系统文件
+.DS_Store
+
+# 编辑器
+.idea/
+.vscode/
+
+# ChromaDB 本地数据库（如果有）
+chroma_db/
+*.sqlite3
